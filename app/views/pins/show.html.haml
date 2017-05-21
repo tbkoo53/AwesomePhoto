@@ -6,6 +6,12 @@
       .panel-body
         %h1= @pin.title
         %p= @pin.description
+        // - @pin.category_list.each do |post|
+        //   = post
+        
+        -@pin.category_list.each do |tags|
+          #div.tag
+            = tags
       .panel-footer
         .row
           .col-md-6

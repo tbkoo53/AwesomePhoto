@@ -41,6 +41,19 @@ gem 'masonry-rails'
 gem 'acts_as_votable', '~> 0.10.0'
 
 
+# gem 'clarifai_ruby'
+
+#タグ
+gem 'acts-as-taggable-on', '~> 3.4'
+# gem 'jquery-ui-rails'
+# gem 'gon'
+
+# gem 'gmaps4rails'
+# gem 'geocoder'
+# gem 'markerclustererplus-rails'
+# gem 'underscore-rails'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -6,4 +6,6 @@ class Pin < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
   
   # default_scope { order('votes_for DESC') }
+  
+  acts_as_ordered_taggable_on :category
 end
