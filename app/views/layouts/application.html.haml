@@ -12,12 +12,18 @@
       
       -if user_signed_in?
         %ul.nav.navbar-nav.navbar-right
-          %li= link_to "New Pen", new_pin_path
-          %li= link_to "Account", edit_user_registration_path
+          %li
+            = link_to new_pin_path do
+              %i.fa.fa-plus
+              
+          %li
+            = link_to edit_user_registration_path do
+              %i.fa.fa-cog
+              
           %li= link_to "SignOut", destroy_user_session_path, method: :delete
       -else
         %ul.nav.navbar-nav.navbar-right
-          %li= link_to "Sign Up", new_user_registration_path
+          %li= link_to "SignUp", new_user_registration_path
           %li= link_to "SignIn", new_user_session_path
       
   .container

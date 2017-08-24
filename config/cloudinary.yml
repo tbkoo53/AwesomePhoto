@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: hc1d0dwty
+  api_key: '664731268667268'
+  api_secret: uEiLtwL_EyJLs4_L4L37gARM6x4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hc1d0dwty
+  api_key: '664731268667268'
+  api_secret: uEiLtwL_EyJLs4_L4L37gARM6x4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hc1d0dwty
+  api_key: '664731268667268'
+  api_secret: uEiLtwL_EyJLs4_L4L37gARM6x4
+  enhance_image_tag: true
+  static_image_support: false
